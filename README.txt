@@ -10,7 +10,7 @@ With this application, you will be able to create your own games.
 
 ## Developers
 
-Currently, I am the only developer working on this project.
+Currently, I am the only developer working on this project for now.
 
 ## How to Use
 
@@ -96,7 +96,6 @@ This moves the object five pixels (in 2D) to the left.
 
 You can also use variables and conditions to control movement. Here is an example of a possible 2D script:
 
-```cpp
 ## main_update always runs every frame to check buttons
 func main_update()
 {
@@ -125,7 +124,6 @@ func main_update()
         y -= 5;
     }
 }
-```
 
 **Important:** This scripting syntax is only an example of the planned language, called **MscriptMGE**. Since the scripting system has not been developed yet, its syntax and functions may change during development.
 
