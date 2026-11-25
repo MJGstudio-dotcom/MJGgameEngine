@@ -10,13 +10,13 @@ With this application, you will be able to create your own games.
 
 ## Developers
 
-Currently, I am the only developer working on this project for now.
+Currently, I am the only developer working on this project.
 
 ## How to Use
 
 Nothing has been fully implemented yet, so you will need to wait for future updates to learn how to use the scripting system. This is just the beginning of the project.
 
-However, there are already some features planned for this application that I can introduce.
+However, there are already some planned features that I can introduce.
 
 You will be able to work with the following folders and resources:
 
@@ -92,11 +92,12 @@ For example, you could move an object to the left when the left button is held:
 
 `x -= 5;`
 
-This moves the object five pixels(in 2D) to the left.
+This moves the object five pixels (in 2D) to the left.
 
 You can also use variables and conditions to control movement. Here is an example of a possible 2D script:
 
-## main_update runs every frame to check the input
+```cpp
+## main_update always runs every frame to check buttons
 func main_update()
 {
     var left = keyboard_hold(char("A") || bt_left);
@@ -124,12 +125,13 @@ func main_update()
         y -= 5;
     }
 }
+```
 
-Important: This scripting syntax is only an example of the planned language, called **MscriptMGE**. Since the scripting system has not been developed yet, its syntax and functions may change during development.
+**Important:** This scripting syntax is only an example of the planned language, called **MscriptMGE**. Since the scripting system has not been developed yet, its syntax and functions may change during development.
 
 These examples are intended for 2D projects only. The 3D scripting system will be more extensive and will have additional functionality.
 
-Created With
+## Created With
 
 - C
 - SFML 3.1.0
