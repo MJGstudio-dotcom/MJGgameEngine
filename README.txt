@@ -6,7 +6,7 @@ Developers:
 only me for now.
 
 How To Use:
-now nothing created, so for learning scripting you need to wait. This is the first day now.
+now nothing created, so for learning scripting you need to wait. This is the start now.
 But this app has some things I can say to help you. You can make [Objects, Sprites, Fonts, Paths, TileSets, Scripts].
 These names are folders. In 2D project you can make [2D, 3D, VR] projects. This folders for 2D not set completely; this needs to change,
 not delete but add.
@@ -37,7 +37,7 @@ xspd = left - right * move_spd;
 yspd = up - down * move_spd;
 }
 
-It can be changed because script is not created yet, so it can be changed.
+It can be changed because script is not created yet, and its looks like GML and its kind of copy so its gonna change so it can be changed.
 These codes I say are only for 2D. The 3D is bigger than this, so wait.
 
 Thank you.
